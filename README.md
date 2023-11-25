@@ -36,19 +36,19 @@ The real-world train dataset "PolyU" you can download here:
 
 https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset
 
-The real-world test dataset "Nam" you can download here:
+The real-world test dataset "Nam" you can download here (Selected in the paper):
 
 https://github.com/GuoShi28/CBDNet/tree/master/testsets/Nam_patches
 
-The real-world test dataset "CC" you can download here:
+The real-world test dataset "CC" you can download here (Selected in the paper):
 
 https://github.com/csjunxu/MCWNNM_ICCV2017
 
-The real-world test dataset "DND" you can download here:
+The real-world test dataset "DND" you can download here (Extra tested):
 
 https://github.com/GuoShi28/CBDNet/tree/master/testsets/DND_patches
 
-The real-world test dataset "SenseNoise" you can download here:
+The real-world test dataset "SenseNoise" you can download here (Extra tested):
 
 https://mycuhk-my.sharepoint.com/:f:/g/personal/1155135732_link_cuhk_edu_hk/Eqj2xo-jzTlChyuyF-JWmzQBdi5sLBrRZxQikdnko3EpfQ?e=81pFjp
 
