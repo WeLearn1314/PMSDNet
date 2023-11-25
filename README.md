@@ -50,6 +50,10 @@ https://github.com/GuoShi28/CBDNet/tree/master/testsets/DND_patches
 
 The real-world test dataset "SenseNoise" you can download here (Extra tested):
 
+https://github.com/zhangyi-3/IDR
+
+or
+
 https://mycuhk-my.sharepoint.com/:f:/g/personal/1155135732_link_cuhk_edu_hk/Eqj2xo-jzTlChyuyF-JWmzQBdi5sLBrRZxQikdnko3EpfQ?e=81pFjp
 
 # Deraining Datasets
