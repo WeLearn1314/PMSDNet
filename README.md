@@ -24,15 +24,15 @@ For test the PMSDNet, please run:
 python mainimprovement.py --pretrain sigma/model_50.h5 --only_test True
 
 # Denoising Datasets
-The gray train dataset "Train400" you can download here:
+The gray train dataset "Train400" you can download here (Selected in the paper):
 
 https://download.csdn.net/download/qq_41104871/87646484
 
-The color train dataset "BSD400" you can download here:
+The color train dataset "BSD400" you can download here (Selected in the paper):
 
 https://download.csdn.net/download/qq_41104871/87647333
 
-The real-world train dataset "PolyU" you can download here:
+The real-world train dataset "PolyU" you can download here (Selected in the paper):
 
 https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset
 
