@@ -1,5 +1,5 @@
 # PMSDNet
-A new progressive multi-scale CNN for image denoising (PMSDNet) by Jibin Deng*, Chaohua Hu is submitted in Signal, Image and Video Processing (Major Revision), 2023.
+A new progressive multi-scale CNN for image denoising (PMSDNet) by Jibin Deng*, Chaohua Hu is submitted to Signal, Image and Video Processing (Major Revision), 2023.
  
 # Prerequisites:
 
