@@ -39,5 +39,5 @@ def PMSDNet():
     x = Conv2D(filters=1, kernel_size=(3,3), strides=(1,1), padding='same')(x)  # gray is 1 color is 3
     o = Subtract()([inpt, x])
     model = Model(inputs=inpt, outputs=o)
-    # model.summary()
+    # model.summary() # print the size of model
     return model
