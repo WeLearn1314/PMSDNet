@@ -14,7 +14,6 @@ opencv-python == 4.5.5.62
 scikit-image == 0.17.2
 
 # Prepare training dataset
-
 Taking the gray training dataset "Train400" for example, please run:
 
 python data_generator.py
