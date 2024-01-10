@@ -36,7 +36,7 @@ https://download.csdn.net/download/qq_41104871/87646484
 
 The color train dataset "BSD400" you can download here (Selected in the paper):
 
-https://download.csdn.net/download/qq_41104871/87647333
+https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html | https://download.csdn.net/download/qq_41104871/87647333
 
 The real-world train dataset "PolyU" you can download here (Selected in the paper):
 
