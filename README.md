@@ -36,7 +36,7 @@ https://download.csdn.net/download/qq_41104871/87646484
 
 The color train dataset "BSD400" you can download here (Selected in the paper):
 
-https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html | https://download.csdn.net/download/qq_41104871/87647333
+https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html | or | https://download.csdn.net/download/qq_41104871/87647333
 
 The real-world train dataset "PolyU" you can download here (Selected in the paper):
 
@@ -56,7 +56,7 @@ https://github.com/GuoShi28/CBDNet/tree/master/testsets/DND_patches
 
 The real-world test dataset "SenseNoise" you can download here (Extra tested):
 
-https://github.com/zhangyi-3/IDR | https://mycuhk-my.sharepoint.com/:f:/g/personal/1155135732_link_cuhk_edu_hk/Eqj2xo-jzTlChyuyF-JWmzQBdi5sLBrRZxQikdnko3EpfQ?e=81pFjp
+https://github.com/zhangyi-3/IDR | or | https://mycuhk-my.sharepoint.com/:f:/g/personal/1155135732_link_cuhk_edu_hk/Eqj2xo-jzTlChyuyF-JWmzQBdi5sLBrRZxQikdnko3EpfQ?e=81pFjp
 
 # Deraining Datasets
 The dataset "Rain100H" and "Rain100L" you can download here:
