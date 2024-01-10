@@ -40,4 +40,7 @@ def PMSDNet():
     o = Subtract()([inpt, x])
     model = Model(inputs=inpt, outputs=o)
     # model.summary() # print the size of model
+    # x = torch.randn(1,1,50,50)
+    # flops, params = thop.profile(PMSDNet(),inputs=(x,)) #计算
+    # print(flops/1e9, params/1e6)
     return model
