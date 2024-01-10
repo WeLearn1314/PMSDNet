@@ -23,6 +23,8 @@ For train the PMSDNet, please run:
 python mainimprovement.py
 
 # Denoising Testing
+The pretrained models have been uploaded to the folder "pretrained_models".
+
 For test the PMSDNet, please run:
 
 python mainimprovement.py --pretrain sigma (e.g., 15, 25, 35 and 50)/model_50.h5 --only_test True
