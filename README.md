@@ -32,7 +32,7 @@ python mainimprovement.py --pretrain sigma (e.g., 15, 25, 35 and 50)/model_50.h5
 # Denoising Datasets
 The gray train dataset "Train400" you can download here (Selected in the paper):
 
-https://download.csdn.net/download/qq_41104871/87646484
+https://www.dropbox.com/s/8j6b880m6ddxtee/TNRD-Codes.zip?dl=0&file_subpath=%2FTNRD-Codes%2FTrainingCodes4denoising%2FFoETrainingSets180 or https://download.csdn.net/download/qq_41104871/87646484
 
 The color train dataset "BSD400" you can download here (Selected in the paper):
 
