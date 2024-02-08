@@ -40,7 +40,11 @@ def PMSDNet():
     o = Subtract()([inpt, x])
     model = Model(inputs=inpt, outputs=o)
     # model.summary() # print the size of model
+    # GFLOPs, Params
     # x = torch.randn(1,1,50,50)
     # flops, params = thop.profile(PMSDNet(),inputs=(x,))
     # print(flops/1e9, params/1e6)
     return model
+
+# In this way, you can print the GFLOPs, Params
+# PMSDNet()
