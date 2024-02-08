@@ -4,7 +4,7 @@ from keras.layers import Input, Add,Subtract, PReLU, Conv2DTranspose, \
     Reshape, Dense, Multiply, Activation
 from keras.layers.convolutional import Conv2D
 from keras import backend as K
-import tensorflow as tf
+# import tensorflow as tf
 import os
 
 def PMSDNet():
