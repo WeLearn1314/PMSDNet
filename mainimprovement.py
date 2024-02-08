@@ -12,7 +12,6 @@ import models
 from multiprocessing import Pool
 import random
 
-## Params
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', default='PMSDNet', type=str, help='choose a type of model')
 parser.add_argument('--batch_size', default=20, type=int, help='batch size') #128
@@ -47,13 +46,11 @@ else:
     save_dir = '/'.join(args.pretrain.split('/')[:-1]) + '/'
 
 def step_decay(epoch):
-    
     initial_lr = args.lr
     if epoch<30:
         lr = initial_lr
     else:
         lr = initial_lr/10
-    
     return lr
 
 def train_datagen(y_, batch_size=8):
@@ -101,8 +98,7 @@ def test(model):
     print('Start to test on {}'.format(args.test_dir))
     out_dir = save_dir + args.test_dir.split('/')[-1] + '/'
     if not os.path.exists(out_dir):
-            os.mkdir(out_dir)
-            
+            os.mkdir(out_dir)        
     name = []
     psnr = []
     ssim = []
@@ -131,18 +127,15 @@ def test(model):
         img_test.save(out_dir+filename+'_sigma'+'{}_psnr{:.2f}.png'.format(args.sigma, psnr_noise))
         img_out = Image.fromarray((img_out*255).astype('uint8'))
         img_out.save(out_dir+filename+'_psnr{:.2f}.png'.format(psnr_denoised))
-
     psnr_avg = sum(psnr)/len(psnr)
     ssim_avg = sum(ssim)/len(ssim)
     name.append('Average')
     psnr.append(psnr_avg)
     ssim.append(ssim_avg)
     print('Average PSNR = {0:.2f}, SSIM = {1:.2f}'.format(psnr_avg, ssim_avg))
-    
     pd.DataFrame({'name':np.array(name), 'psnr':np.array(psnr), 'ssim':np.array(ssim)}).to_csv(out_dir+'/metrics.csv', index=True)
     
-if __name__ == '__main__':   
-    
+if __name__ == '__main__':
     if args.only_test:
         model = load_model(args.pretrain, compile=False)
         test(model)

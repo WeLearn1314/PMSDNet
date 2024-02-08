@@ -1,5 +1,5 @@
 # PMSDNet
-Recovering a clean background: A new progressive multi-scale CNN for image denoising (PMSDNet) by Jibin Deng*, Chaohua Hu is submitted to Signal, Image and Video Processing (Major Revision), 2023.
+Recovering a clean background: A new progressive multi-scale CNN for image denoising (PMSDNet) by Jibin Deng*, Chaohua Hu is submitted to Signal, Image and Video Processing (Minor Revision), 2023.
  
 # Prerequisites:
 python == 3.6.2
